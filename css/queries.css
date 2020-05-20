@@ -1,0 +1,73 @@
+/* from 668px to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  nav {
+    font-size: 20px;
+  }
+}
+
+/* from 0 to 667px*/
+@media screen and (max-width: 667px) {
+  .nav__main li:not(.hit) {
+    display: none;
+  }
+
+  .hero-box__buttons {
+    flex-direction: column;
+  }
+
+  .hero-box__buttons a:first-child {
+    margin: 10px 0 10px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+  }
+
+  .column-1of3 {
+    flex: none;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .testimonial__comment {
+    font-size: 80%;
+  }
+  .testimonial__comment .btn {
+    padding: 10px 10px;
+  }
+
+  .plan-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    width: 360px;
+  }
+
+  .plan1 {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .plan__title {
+    padding-top: 20px;
+  }
+
+  .plan__description {
+    font-size: 85%;
+  }
+
+  .suggestion__paragraph {
+    font-size: 220%;
+    margin-bottom: 20px;
+  }
+  .suggestion__btn {
+    width: 140px;
+  }
+}
